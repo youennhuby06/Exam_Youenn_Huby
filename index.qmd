@@ -1,0 +1,95 @@
+---
+title: "Mock Exam"
+author: "Your name here"
+format:
+  html:
+    number-sections: true
+    toc: true
+editor: visual
+# https://quarto.org/docs/computations/execution-options.html#output-options
+execute:
+  # show code chunk output
+  include: true
+  # Show the code in the output
+  echo: true
+  # Show messages
+  message: false
+  # Show warnings
+  warning: true
+  # Cache code results
+  cache: false
+---
+
+# Instructions
+
+## English
+
+First choose your language and delete the section of the document in the other language.
+
+Answer the questions precisely but briefly: the questions are detailed to guide you so there are many of them.
+Don't waste your time repeating the course: you have all documents with you, copying their content is not valuable.
+To answer factual questions, you don't need to make sentences: e.g., just write "4." to answer the question "how much are 2 + 2?".
+
+Before you begin:
+
+1.  Type your name in the header of the document, in the author field.
+2.  Run the following in the terminal (answer *No* if a message box asks you if you want to close some files):
+
+`quarto publish gh-pages index.qmd`
+
+During your work: render the document regularly (at the end of each question, for example) so that problems do not pile up.
+
+At the end of the exam: save the file, make a commit and push the project to GitHub.
+Do not modify the project after the exam has finished.
+
+## Français
+
+Commencez par choisir votre langue et supprimez la partie du document rédigée dans l'autre langue.
+
+Répondez aux questions de manière précise mais concise : les questions sont détaillées pour vous guider, c'est pourquoi elles sont nombreuses.
+Ne perdez pas votre temps à répéter le cours : vous disposez de tous les documents, il est inutile d'en recopier le contenu.
+Pour répondre aux questions factuelles, vous n'avez pas besoin de rédiger des phrases : par exemple, écrivez simplement "4." pour répondre à la question "Combien font 2 + 2 ?".
+
+Avant de commencer:
+
+1.  Tapez votre nom dans l'entête du document, dans le champ "author"
+2.  Exécutez dans le terminal:
+
+`quarto publish gh-pages index.qmd`
+
+Pendant votre travail: rendez le document régulièrement (à la fin de chaque question par exemple) pour ne pas laisser les problèmes s'accumuler.
+
+A la fin de l'examen: enregistrez le fichier, faites un commit et poussez le projet sur GitHub.
+Ne modifiez pas le projet après la fin de l'examen.
+
+# English
+
+Instructions are in italics.
+Read them carefully.
+Questions are in "blockquote" format.
+Type your answer below the question.
+
+> How much are 2 + 2?
+
+Your answer here.
+
+> What is the square root of $\pi$?
+
+Your answer here.
+You need a code chunk to answer this question: create it.
+
+# French
+
+Les instructions sont en italique.
+Lisez-les attentivement.
+Les questions sont au format "blockquote".
+Tapez votre réponse sous la question.
+
+> Combien font 2 + 2 ?
+
+Votre réponse ici.
+
+> Quelle est la racine carrée de $\pi$ ?
+
+Votre réponse ici.
+Vous devez créer un bout de code pour répondre à cette question.

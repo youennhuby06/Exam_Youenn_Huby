@@ -1,0 +1,38 @@
+---
+title: "Mock Exam"
+author: "Eric Marcon"
+format:
+  html:
+    number-sections: true
+    toc: true
+editor: visual
+# https://quarto.org/docs/computations/execution-options.html#output-options
+execute:
+  # show code chunk output
+  include: true
+  # Show the code in the output
+  echo: true
+  # Show messages
+  message: false
+  # Show warnings
+  warning: true
+  # Cache code results
+  cache: false
+---
+
+# English
+
+Instructions are in italics.
+Read them carefully.
+Questions are in "blockquote" format.
+Type your answer below the question.
+
+> How much are 2 + 2?
+
+4.  
+
+> What is the square root of $\pi$?
+
+```{r}
+sqrt(pi)
+```
